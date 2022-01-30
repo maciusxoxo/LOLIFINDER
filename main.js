@@ -55,6 +55,12 @@ client.on('message', message =>{
         client.commands.get('find-xrakynn_').execute(message, args);
     } if (command === 'find-wxnderr') {
         client.commands.get('find-wxnderr').execute(message, args);
+    } if (command === 'find-tor1dus') {
+        client.commands.get('find-tor1dus').execute(message, args);
+    } if (command === 'find-zombiaczekkk') {
+        client.commands.get('find-zombiaczekkk').execute(message, args);
+    } if (command === 'find-fejmis') {
+        client.commands.get('find-fejmis').execute(message, args);
     }
 });
  
