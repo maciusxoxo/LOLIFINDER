@@ -63,6 +63,14 @@ client.on('message', message =>{
         client.commands.get('find-fejmis').execute(message, args);
     } if (command === 'find-pvpmany') {
         client.commands.get('find-pvpmany').execute(message, args);
+    } if (command === 'find-borys123pl') {
+        client.commands.get('find-borys123pl').execute(message, args);
+    } if (command === 'find-perpexior') {
+        client.commands.get('find-perpexior').execute(message, args);
+    } if (command === 'find-pewny_ded') {
+        client.commands.get('find-pewny_ded').execute(message, args);
+    } if (command === 'find-sklezixon') {
+        client.commands.get('find-sklezixon').execute(message, args);
     }
 });
  
