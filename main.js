@@ -75,6 +75,8 @@ client.on('message', message =>{
         client.commands.get('find-xavempik').execute(message, args);
     } if (command === 'find-w97') {
         client.commands.get('find-w97').execute(message, args);
+    } if (command === 'find-elo123_') {
+        client.commands.get('find-elo123_').execute(message, args);
     }
 });
  
