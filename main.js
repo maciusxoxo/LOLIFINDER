@@ -71,6 +71,10 @@ client.on('message', message =>{
         client.commands.get('find-pewny_ded').execute(message, args);
     } if (command === 'find-sklezixon') {
         client.commands.get('find-sklezixon').execute(message, args);
+    } if (command === 'find-xavempik') {
+        client.commands.get('find-xavempik').execute(message, args);
+    } if (command === 'find-w97') {
+        client.commands.get('find-w97').execute(message, args);
     }
 });
  
