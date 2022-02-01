@@ -77,6 +77,12 @@ client.on('message', message =>{
         client.commands.get('find-w97').execute(message, args);
     } if (command === 'find-elo123_') {
         client.commands.get('find-elo123_').execute(message, args);
+    } if (command === 'find-kamilpvp') {
+        client.commands.get('find-kamilpvp').execute(message, args);
+    } if (command === 'find-uziclickerpl') {
+        client.commands.get('find-uziclickerpl').execute(message, args);
+    } if (command === 'find-_roteq_') {
+        client.commands.get('find-_roteq_').execute(message, args);
     }
 });
  
